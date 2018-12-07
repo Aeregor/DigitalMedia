@@ -1,17 +1,37 @@
 @charset "UTF-8";
 /* This is a comment! Text here will be ignored by the browser. */
 body {
-	margin: 0 auto;
+	font: 100%/1.4 Verdana, Arial, verdana, sans-serif;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+	
+}
+
+a:link {
+	color: #0B294F;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #0B294F;
+}
+
+a: hover, a:active, a:focus {
+	text-decoration: none;
+	
 }
 .homePage {
 	background: #0B294F;
 }
 .container {
-	width: 960px;
+	width: 100%;
 	margin: 0 auto;
 }
 .header {
-	background: #DCC60B;
+	color: white;
+	background: #0B294F;
 	text-align: center;
 	margin: 0px;
 	padding: 5;
@@ -30,6 +50,8 @@ body {
 	text-align: center;
 }
 .content {
+	font: 100%/1.4 Verdana, Arial, verdana, sans-serif;
+	color: #0B294F;
 	background: #DCC60B;
 	margin: 0px;
 	float: left;
@@ -37,6 +59,7 @@ body {
 	text-align: center;
 }
 .footer {
+	color: #FFFFFF;
 	background: #206ED5;
 	margin: 0px;
 	float: left;
